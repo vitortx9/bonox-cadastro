@@ -1,0 +1,104 @@
+/* Reset básico para remover margens e padding padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fonte e cores básicas */
+body {
+    font-family: 'Arial', sans-serif; /*fonte de tudo*/
+    background-color: #F0F8FF; /* Tom muito claro de azul */
+    color: #001F3F;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    font-family: 'Trebuchet MS', sans-serif; /* Fonte do cabeçalho */
+    color: #F0F8FF;
+    text-align: center;
+    border-bottom: 4px solid #00AFFF; /* Linha inferior para destaque */
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #001F3F;
+}
+
+/* Seção de conteudo*/
+.container {
+    background-color: #F2F2F2;
+    padding: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h2 {
+    font-family: 'Trebuchet MS', sans-serif; /* Fonte dos títulos */
+    color: #003366; /* Para criar profundidade */
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+h3 {
+    font-family: 'Trebuchet MS', sans-serif; /* Fonte dos subtítulos */
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+h4 {
+    font-family: 'Trebuchet MS', sans-serif; /* Fonte dos subtítulos */
+    color: #003366;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+/* Texto */
+p {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+/* Lista de Links */
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #00AFFF; /* Vibrante e moderno */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    font-family: 'Arial', sans-serif; /* Fonte do rodapé */
+    text-align: center;
+    padding: 10px 0;
+    background-color: #001F3F; /* Fundo do rodapé */
+    color: #F0F8FF; /* Texto do rodapé */
+    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
